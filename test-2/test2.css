@@ -1,0 +1,105 @@
+html {
+    font-size: 16px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.form-login {
+    max-width:  500px;
+    margin: auto;
+}
+.form-login input {
+    width: 100%;
+    margin-bottom: 16px;
+    min-height: 40px;
+    border: 1px solid #333;
+    padding: 0.5rem 1rem;
+    font-size:1rem;
+}
+.btn-link {
+    border:0;
+    font-size: 1rem;
+    padding: 0;
+    background: transparent;
+}
+
+.header {
+    display: flex;
+    border: 2px solid #000
+}
+.header .logo {
+    width: 30%;
+    height: 200px;
+}
+.header .banner {
+    width: 70%;
+    height: 200px;
+    border-left: 2px solid #000;
+}
+.logo, .banner, aside, .mainContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #000;
+    border-top: 0;
+    align-items: center;
+}
+.nav .menu {
+    display: flex;
+    justify-content: center;
+}
+
+.nav .menu a {
+    padding: 16px 32px;
+    border-right:2px solid #000;
+}
+.nav .menu a.order {
+    border-right:0;
+    border-left: 2px solid #000;
+}
+.pageContent {
+    display: flex;
+    border: 2px solid #000;
+    border-top: 0;
+}
+.pageContent aside {
+    width: 300px;
+    border-right: 2px solid #000;
+}
+
+.pageContent .mainContent {
+    min-height: 600px;
+    flex-grow: 1;
+}
+
+.mainContent-admin {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.mainContent-admin .nav {
+    width: 100%;
+    border-width: 0 0 2px !important;
+}
+.mainContent-admin .content {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.sidebar.sidebar-admmin {
+    flex-direction: column;
+    justify-content: start;
+    padding: 5rem 0;
+}
+
